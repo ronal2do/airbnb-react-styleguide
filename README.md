@@ -22,7 +22,7 @@
 ## Regras Básicas
 
   - Apenas **um** componente por arquivo.
-    - Contudo, múltiplos Componentes [Statefull ou Stateless ](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions)são permitidos por arquivo. eslint: [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md#ignorestateless).
+    - Contudo, múltiplos componentes são permitidos quando são dependentes um do outro e apenas 1 tem retorno [Statefull ou Stateless ](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions)são permitidos por arquivo. eslint: [`react/no-multi-comp`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md#ignorestateless).
     
     ```jsx
     
